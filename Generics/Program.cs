@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Generics;
+
+var collection = new GenericCollection<int>(10);
+collection[0] = 1;
+Console.WriteLine(collection[0]);
